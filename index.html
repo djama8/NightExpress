@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/css.css">
+    <title>Ночной экспресс</title>
+</head>
+<body>
+   <main>   
+    
+ <div class="container">
+    <header>
+            <div class="flex-header">
+            <div class="left-header">
+                <img src="img/Group 20.png" alt="1">
+            </div>
+            <div class="center-header">
+                <ul>
+                    <li><a href="#">Рассчитать доставку</a></li>
+                    <li><a href="#">Дополнительные услуги</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">Заказать</a></li>
+                </ul>
+            </div>
+            <div class="right-header">
+                <p>+7 (495) 260 68 53</p>
+                <p>info@A5-EXPRESS.ru</p>
+            </div>
+            </div>
+        
+    </header>
+    <div class="banner">
+        <h1>НОЧНОЙ ЭКСПРЕСС</h1>
+        <p>Мы предлагаем доставку сборных грузов из Москвы в Санкт-Петербург
+           <br> на следующий день.</p>
+        <p> Принимаем грузы ежедневно <span class="col">до 21:00,</span>  выдача на следующий день <span class="col"> с 09:00</span></p>
+    </div>
+
+<div class="form-price">
+    <form method="get" class="form">
+       
+        <div class="form-css1">
+          
+            <input type="text" name="from" id="from" placeholder="Откуда"/>
+              <div class="radio-inp">
+                <div class="flex-lab">
+              <input type="radio" name="radio" id="radio" value="От адреса">
+              <label for="radio">От адреса</label>
+                </div>
+                <div class="flex-lab">
+              <input type="radio" name="radio" id="radio" value="От терминала">
+              <label for="radio"> От терминала</label>
+                </div>
+
+              </div>
+        </div>
+  
+        
+
+          <div class="number">
+            <button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><img src="img/hhhh2.png" alt=""></button>
+            <input type="number" min="1" max="100" step="1" name="weight" id="weight" placeholder="Вес" readonly>
+            <button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><img src="img/Polygon 1.png" alt=""></button>
+        </div>
+
+        <div class="form-css1">
+          
+          <input type="text" name="from" id="from" placeholder="Куда"/>
+            <div class="radio-inp">
+              <div class="flex-lab">
+            <input type="radio" name="radio" id="radio" value="От адреса">
+            <label for="radio">От адреса</label>
+              </div>
+              <div class="flex-lab">
+            <input type="radio" name="radio" id="radio" value="От терминала">
+            <label for="radio"> От терминала</label>
+              </div>
+
+            </div>
+      </div>
+  
+          <div class="number">
+            <button class="number-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();"><img src="img/hhhh2.png" alt=""></button>
+            <input type="number" min="1" max="100" step="1" name="weight" id="weight" placeholder="Вес" readonly>
+            <button class="number-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();"><img src="img/Polygon 1.png" alt=""></button>
+        </div>
+      </form>
+
+      <div class="price">
+        <div class="price-left">
+          <p>Срок доставки:</p>
+          <h1>2 дня</h1>
+        </div>
+        <div class="price-center">
+          <p>Стоимость доставки:</p>
+          <h1>11 000 ₽* </h1>
+        </div>
+        <div class="price-right">
+          <button class="zakaz">Оформить заказ</button>
+        </div>
+       
+      </div>
+      <p class="p1">*Цена рассчитывается от адреса забора груза до адреса доставки. Не является публичной офертой.</p>
+</div>
+    
+
+  <div class="why">
+    <h1>Почему именно мы</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dictum suspendisse sed vel a, egestas ut tellus est, at. Massa pretium sed lacus sed nibh sed nunc praesent. Nulla fermentum, malesuada enim.</p>
+    <div class="plus">
+      <img src="img/Group.png" alt="1">
+      <img src="img/Group (1).png" alt="2">
+      <img src="img/Group (2).png" alt="3">
+      <img src="img/Group (3).png" alt="4">
+      <img src="img/Group (5).png" alt="5">
+      <img src="img/Group (6).png" alt="6">
+      <img src="img/Group (7).png" alt="7">
+      <img src="img/Group (8).png" alt="8">
+    </div>
+  </div>
+
+  <div class="city">
+    <h1>Выберите город, в котором требуется
+      услуга ответственного хранения</h1>
+  <div class="flex-city">
+   <div class="tab1"><a href="#">Москва</a></div>
+   <div class="tab2"><a href="#">СПб</a></div>
+   <div class="tab3"><a href="#">Тариф на Терминальную обработку грузов и Ответственное хранение</a></div>
+  </div>
+  <div class="blok-fun">
+    <div class="flex-fun">
+    <div class="blok-fan-text">
+   <p> Такая услуга, как ответственное хранение позволит временно поместить Ваш груз на нашем складе, оплатив только занимаемую площадь. Таким образом, сократив Ваши расходы на логистические услуги.
+    Вы получите площадь хранения любого нужного размера, с возможностью изменения. Мы возьмём на себя комплектацию, формирование заказов (внутреннюю проверку, маркировку, сортировку, переупаковку и т.п.) 
+    и осуществим адресную доставку клиентам.</p>
+    </div>
+    <div class="block-fan-down">
+     <p><a href="https://wp-s.ru/wallpapers/10/15/341516397505459/izumrudnaya-reka-v-skazochnom-lesu.jpg" download="">Тариф на Терминальную обработку грузов и Ответственное хранение</a></p>
+     <div class="down">
+      <p>XML, 35 кб</p>
+      <img src="img/direct-download 1.png" alt="8">
+     </div>
+     <p><a href="#">Договор на оказание услуг</a></p>
+     <div class="down">
+      <p>XML, 35 кб</p>
+      <img src="img/direct-download 1.png" alt="8">
+     </div>
+      </p>
+    </div>
+    </div>
+    <div class="blok-fan-form">
+      <form action="#" class="form2">
+        <div class="flex-form2">
+        <label for="ex">Позиция</label>
+        <div class="flex">
+        <input type="text" name="ex" id="ex" placeholder="Пример">
+        <input type="text" name="ex" id="ex" placeholder="Пример">
+        </div>
+        </div>
+
+        <div class="flex-form2">
+          <label for="ex">Описание</label>
+          <div class="flex">
+          <input type="text" name="ex" id="ex" placeholder="Пример">
+          <input type="text" name="ex" id="ex" placeholder="Пример">
+          </div>
+          </div>
+
+        <div class="flex-form2">
+          <label for="">Ед. изм.</label>
+          <div class="flex">
+          <input type="text" name="kg" id="kg" placeholder="Килограмм">
+          <input type="text" name="kg" id="kg" placeholder="Килограмм">
+        </div>
+        </div>
+
+        <div class="flex-form2">
+          <label for="">Цена, Р</label>
+          <div class="flex">
+          <input type="text" name="rub" id="rub" placeholder="10000">
+          <input type="text" name="rub" id="rub" placeholder="10000">
+        </div>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+  
+  </div>
+
+  <div class="direct">
+    <h1>О направлении</h1>
+    <p>Одно из основных направлений автоперевозок нашей компании - это доставка грузов по маршруту из Москвы в Санкт-Петербург, а также из Санкт-Петербурга в Москву.</p>
+    <p>Благодаря наличию собственного автотранспорта и четко выстроенной схеме движения, мы доставим Ваш груз между столицами на следующий день до нашего склада или адреса получателя. Все машины оборудованы инновационными системами навигации, что дает возможность отслеживать груз во время всей перевозки.</p>
+    <p>Доставка грузов по данному маршруту осуществляется ежедневно. Мы выполняем доставку «Москва ⇄ Санкт-Петербург» как в составе сборного груза, так и индивидуальным автотранспортом.</p>
+  </div>
+
+
+   <div class="req">
+    <h1>Основные требования к упаковке груза</h1>
+    <p>  Чтобы защитить груз от механических повреждений во время перевозки и доставить груз получателю в первоначальном виде:
+
+      <ul>
+        <li>  Груз должен быть упакован, без доступа к содержимому
+        </li>
+        <li>  Поверхность упаковки груза должна быть чистой
+        </li>
+        <li>  Упаковка, содержащая заостренные углы и выступы, а так же, не стандартные размеры, допускается к перевозке после дополнительного согласования с сотрудником нашей компании, принявшим заявку.
+        </li>
+      </ul>
+    </p>
+    <p>  Вы можете доверить подбор подходящей упаковки для вашего груза нашим специалистам!
+    </p>
+    <p>  Мы учтем все нюансы и обеспечим отправку вашего заказа точно в указанное время, гарантируя полную сохранность груза и оперативность!
+    </p>
+  </div>
+
+
+  <div class="dop">
+    <h1>Дополнительные услуги</h1>
+    <p>Доставка от адреса и до адреса (из рук в руки)<br>
+      Отдельный автомобиль специально под Ваш груз <br>
+      Доставка по России<br>
+      Такелажные услуги<br>
+      Складские услуги. Ответственное хранение груза<br>
+      Упаковка, обрешетка груза<br>
+      Оформление документов</p>
+  </div>
+
+
+  <div class="huy">
+    <h1>Название заголовка</h1>
+    <div class="flex-huy">
+    <div class="left">
+
+      <input type="text" name="pl" id="pl" placeholder="Плательщик*">
+      <div class="flex-redio">
+        <div class="flex-label">
+          <input type="radio" name="pl" id="pl" placeholder="От адреса">
+          <label for="pl">От адреса</label>
+          </div>
+          <div class="flex-label">
+            <input type="radio" name="pl" id="pl" placeholder="От терминала">
+            <label for="pl">От адреса</label>
+            </div>
+
+      </div>
+      <input type="text" name="pl" id="pl" placeholder="E-mail*">
+      <input type="text" name="pl" id="pl" placeholder="Телефон*">
+      <input type="text" name="pl" id="pl" placeholder="Контактное лицо*">
+      <div class="flex-redio">
+        <div class="flex-label">
+          <input type="radio" name="pl" id="pl" placeholder="От адреса">
+          <label for="pl">От адреса</label>
+          </div>
+        
+        <div class="flex-label">
+          <input type="radio" name="pl" id="pl" placeholder="От терминала">
+          <label for="pl">От терминала</label>
+          </div>
+       
+
+      </div>
+      <div class="flex-label2">
+        <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+        <label for="pl">Указать реквизиты (для договоров)</label>
+        </div>
+
+      <input type="text" name="pl" id="psp" placeholder="Серия и номер паспорта*">
+      <input type="text" name="pl" id="pl" placeholder="Наименование груза">
+      <div class="flex-radfl">
+      <div class="flex-rad2">
+        <div class="flex-label">
+        <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+        <label for="pl">Россыпь</label>
+        </div>
+        <div class="flex-label">
+          <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+          <label for="pl">Хрупкий</label>
+          </div>
+          <div class="flex-label">
+            <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+            <label for="pl">Тяжеловес</label>
+            </div>
+            <div class="flex-label">
+              <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+              <label for="pl">Страхование</label>
+              </div>
+
+
+      </div>
+      <div class="flex-rad2">
+        <div class="flex-label">
+          <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+          <label for="pl">Негабарит</label>
+          </div>
+          <div class="flex-label">
+            <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+            <label for="pl">Паллет</label>
+            </div>
+
+            <div class="flex-label">
+              <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+              <label for="pl">Опасный</label>
+              </div>
+
+              <div class="flex-label">
+                <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+                <label for="pl">Жест. упаковка</label>
+                </div>
+
+
+      </div>
+    </div>
+      <div class="flex-input">
+        <input type="text" name="pl" id="pla" placeholder="Мест">
+        <input type="text" name="pl" id="pla" placeholder="Вес, кг.">
+        <input type="text" name="pl" id="pla" placeholder="Объем, м3">
+
+      </div>
+      <input type="text" name="pl" id="pl" placeholder="Объявленная стоимость (страхование)">
+
+
+    </div>
+    <div class="right">
+      <div class="flex-ri">
+      <div class="rr">
+        <input type="text" name="pl" id="pl" placeholder="Отправитель*">
+        <div class="flex-label">
+          <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+          <label for="pl">Выставить по плательщику</label>
+          </div>
+        <input type="text" name="pl" id="pl" placeholder="Пункт отправления*">
+        <div class="flex-label">
+          <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+          <label for="pl">Выставить по плательщику</label>
+          </div>
+        <input type="text" name="pl" id="pl" placeholder="Адрес подачи автомобиля">
+        <input type="text" name="pl" id="pl" placeholder="Телефон*">
+        <input type="text" name="pl" id="pl" placeholder="Контактное лицо*">
+
+
+      </div>
+      <div class="rl">
+        <input type="text" name="pl" id="pl" placeholder="Отправитель*">
+        <div class="flex-label">
+          <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+          <label for="pl">Выставить по плательщику</label>
+          </div>
+        <input type="text" name="pl" id="pl" placeholder="Пункт отправления*">
+        <div class="flex-label">
+          <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+          <label for="pl">Выставить по плательщику</label>
+          </div>
+        <input type="text" name="pl" id="pl" placeholder="Адрес подачи автомобиля">
+        <input type="text" name="pl" id="pl" placeholder="Телефон*">
+        <input type="text" name="pl" id="pl" placeholder="Контактное лицо*">
+
+      </div>
+    </div>
+    <div class="textarea">
+      <input type="textarea" name="pl" id="plan" placeholder="Плательщик*">
+    </div>
+      <div class="flex-rad3">
+        <div class="flex-label">
+          <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+          <label for="pl">От адреса</label>
+          </div>
+
+          <div class="flex-label">
+            <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+            <label for="pl">От адреса</label>
+            </div>
+
+            <div class="flex-label">
+              <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+              <label for="pl">От адреса</label>
+              </div>
+
+              <div class="flex-label">
+                <input type="radio" name="pl" id="pl" placeholder="Плательщик*">
+                <label for="pl">От адреса</label>
+                </div>
+
+      </div>
+      <input type="text" name="pl" id="pl" placeholder="Город оплаты">
+
+    </div>
+
+  </div>
+  <p>* обязательные поля</p>
+  <div class="zayavka">
+    <button>Отправить заявку</button>
+    <div class="flex-label">
+    <input type="radio" name="radio" id="radio">
+    <label for="radio">Нажимая на кнопку "Оправить заявку", вы даете согласие на обработку персональных данных в соответствии с Политикой конфиденциальности</label>
+   </div>
+  </div>
+</div>
+
+<div class="contact">
+  <div class="left">
+    <img src="img/Image (12).png" alt="4">
+  </div>
+  <div class="right">
+    <h1>Контакты</h1>
+    <div class="flex-left-2">
+    <div class="left-3">
+      <p class="l">Москва</p>
+      <p class="l">Томилино<br>
+        Мос. область</p>
+      <p class="l">Санкт-Петербург</p>
+    
+      
+    </div>
+    <div class="left-2">
+    <p>ул. Иловайская, дом 3, строение 18,<br>
+        Складской комплекс «Деметра».<br>
+       <span class="l"> .+7 (495) 260-68-53</span></p>
+   
+   
+     <p> мкр. Птицефабрика,<br>
+      Транспортно -<br>
+      Логистический парк «Томилино»,<br>
+      стр. 42.<br>
+      <span class="l">+7 (495) 260-68-53,  +7 (495) 925-55-35</span></p>
+      
+    
+    
+     <p> ул. Софийская, 101, лит Е.<br>
+     <span class="l"> +7 (812) 565-68-53</span></p>
+    </div>
+  </div>
+  </div>
+</div>
+
+</div>
+<div class="imgpoi">
+  <img src="img/Group 22.png" alt="4">
+</div>
+<div class="container">
+<footer>
+  <div class="flex-footer">
+  <div class="left">
+<p>© 2021 А5 ЭКСПРЕСС</p>  
+</div>
+  <div class="middle">
+    <img src="img/Group 23.png" alt="">
+  </div>
+  <div class="right">
+    <img src="img/hhh.png" alt="">
+    <p>Разработка и <br> поддержка сайтов</p>
+  </div>
+  </div>
+  <p class="last">Сайт является объектом авторского права. Без согласия правообладателя копирование запрещено.</p>
+</footer>
+</div>
+   </main>
+</body>
+</html>
